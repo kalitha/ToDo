@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28005C421E5EC81E001B6972 /* TableViewCellCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28005C401E5EC81E001B6972 /* TableViewCellCard.swift */; };
+		28005C431E5EC81E001B6972 /* TableViewCellCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28005C411E5EC81E001B6972 /* TableViewCellCard.xib */; };
+		28038ABF1E5C0B5400D87424 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28038ABE1E5C0B5400D87424 /* HomePageViewController.swift */; };
+		2808E57E1E60034E002503B1 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808E57D1E60034E002503B1 /* Utility.swift */; };
+		2808E5841E6045C0002503B1 /* Descriptionviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808E5831E6045C0002503B1 /* Descriptionviewcontroller.swift */; };
+		2808E5861E60524D002503B1 /* PostDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2808E5851E60524D002503B1 /* PostDataService.swift */; };
+		280D29DB1E618F3700F11BEB /* ReachabilityStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280D29DA1E618F3700F11BEB /* ReachabilityStatus.swift */; };
 		28222C261E5AAE90008F3B1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28222C251E5AAE90008F3B1E /* AppDelegate.swift */; };
-		28222C281E5AAE90008F3B1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28222C271E5AAE90008F3B1E /* ViewController.swift */; };
+		28222C281E5AAE90008F3B1E /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28222C271E5AAE90008F3B1E /* SplashScreenViewController.swift */; };
 		28222C2B1E5AAE90008F3B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28222C291E5AAE90008F3B1E /* Main.storyboard */; };
 		28222C2E1E5AAE90008F3B1E /* TodoNext.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28222C2C1E5AAE90008F3B1E /* TodoNext.xcdatamodeld */; };
 		28222C301E5AAE90008F3B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28222C2F1E5AAE90008F3B1E /* Assets.xcassets */; };
 		28222C331E5AAE90008F3B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28222C311E5AAE90008F3B1E /* LaunchScreen.storyboard */; };
+		28222C3B1E5AB4CC008F3B1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28222C3A1E5AB4CC008F3B1E /* GoogleService-Info.plist */; };
+		289F904B1E5C4D6600E6F8DF /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289F90491E5C4D6600E6F8DF /* ProfilePic.swift */; };
+		289F904C1E5C4D6600E6F8DF /* ProfilePic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289F904A1E5C4D6600E6F8DF /* ProfilePic.xib */; };
+		28FCAB541E5D569B005B9D8D /* GetDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCAB531E5D569B005B9D8D /* GetDataModel.swift */; };
+		28FCAB561E5D5C64005B9D8D /* GetDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCAB551E5D5C64005B9D8D /* GetDataService.swift */; };
+		28FCAB581E5D5E9A005B9D8D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCAB571E5D5E9A005B9D8D /* MainViewController.swift */; };
+		28FCAB5E1E5D7078005B9D8D /* TaskDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCAB5D1E5D7078005B9D8D /* TaskDetailProtocol.swift */; };
+		28FCAB601E5D9230005B9D8D /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCAB5F1E5D9230005B9D8D /* HomePageViewModel.swift */; };
+		E199A8CA07C4D9CF19A69323 /* Pods_TodoNext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF4F6158FE446120C3A9BB8 /* Pods_TodoNext.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28005C401E5EC81E001B6972 /* TableViewCellCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellCard.swift; sourceTree = "<group>"; };
+		28005C411E5EC81E001B6972 /* TableViewCellCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellCard.xib; sourceTree = "<group>"; };
+		28038ABE1E5C0B5400D87424 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		2808E57D1E60034E002503B1 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2808E5831E6045C0002503B1 /* Descriptionviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Descriptionviewcontroller.swift; sourceTree = "<group>"; };
+		2808E5851E60524D002503B1 /* PostDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDataService.swift; sourceTree = "<group>"; };
+		280D29DA1E618F3700F11BEB /* ReachabilityStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityStatus.swift; sourceTree = "<group>"; };
 		28222C221E5AAE90008F3B1E /* TodoNext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoNext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28222C251E5AAE90008F3B1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28222C271E5AAE90008F3B1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28222C271E5AAE90008F3B1E /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		28222C2A1E5AAE90008F3B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28222C2D1E5AAE90008F3B1E /* TodoNext.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoNext.xcdatamodel; sourceTree = "<group>"; };
 		28222C2F1E5AAE90008F3B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28222C321E5AAE90008F3B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28222C341E5AAE90008F3B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28222C3A1E5AB4CC008F3B1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		28222C3C1E5AB964008F3B1E /* TodoNext-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TodoNext-Bridging-Header.h"; sourceTree = "<group>"; };
+		289F90491E5C4D6600E6F8DF /* ProfilePic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
+		289F904A1E5C4D6600E6F8DF /* ProfilePic.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilePic.xib; sourceTree = "<group>"; };
+		28FCAB531E5D569B005B9D8D /* GetDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDataModel.swift; sourceTree = "<group>"; };
+		28FCAB551E5D5C64005B9D8D /* GetDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetDataService.swift; sourceTree = "<group>"; };
+		28FCAB571E5D5E9A005B9D8D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		28FCAB5D1E5D7078005B9D8D /* TaskDetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailProtocol.swift; sourceTree = "<group>"; };
+		28FCAB5F1E5D9230005B9D8D /* HomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		49BC24DCEC68096A58556170 /* Pods-TodoNext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoNext.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoNext/Pods-TodoNext.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF4F6158FE446120C3A9BB8 /* Pods_TodoNext.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoNext.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52AF7D04E5A9A7E119DEB24 /* Pods-TodoNext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoNext.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoNext/Pods-TodoNext.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E199A8CA07C4D9CF19A69323 /* Pods_TodoNext.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28005C441E5EEE55001B6972 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				28FCAB5D1E5D7078005B9D8D /* TaskDetailProtocol.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		28038ABB1E5C092900D87424 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				28222C251E5AAE90008F3B1E /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		28038ABC1E5C093F00D87424 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28222C271E5AAE90008F3B1E /* SplashScreenViewController.swift */,
+				28FCAB571E5D5E9A005B9D8D /* MainViewController.swift */,
+				28038ABE1E5C0B5400D87424 /* HomePageViewController.swift */,
+				2808E5831E6045C0002503B1 /* Descriptionviewcontroller.swift */,
+				289F90491E5C4D6600E6F8DF /* ProfilePic.swift */,
+				289F904A1E5C4D6600E6F8DF /* ProfilePic.xib */,
+				28005C401E5EC81E001B6972 /* TableViewCellCard.swift */,
+				28005C411E5EC81E001B6972 /* TableViewCellCard.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		28038ABD1E5C097500D87424 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28222C2C1E5AAE90008F3B1E /* TodoNext.xcdatamodeld */,
+				28222C341E5AAE90008F3B1E /* Info.plist */,
+				28222C311E5AAE90008F3B1E /* LaunchScreen.storyboard */,
+				28222C2F1E5AAE90008F3B1E /* Assets.xcassets */,
+				28222C291E5AAE90008F3B1E /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		28222C191E5AAE8F008F3B1E = {
 			isa = PBXGroup;
 			children = (
+				28222C3A1E5AB4CC008F3B1E /* GoogleService-Info.plist */,
 				28222C241E5AAE90008F3B1E /* TodoNext */,
 				28222C231E5AAE90008F3B1E /* Products */,
+				3451A87998E7BE3B14A7301B /* Pods */,
+				7C4ECC4EB5396E664C4B4614 /* Frameworks */,
+				28222C3C1E5AB964008F3B1E /* TodoNext-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,59 @@
 		28222C241E5AAE90008F3B1E /* TodoNext */ = {
 			isa = PBXGroup;
 			children = (
-				28222C251E5AAE90008F3B1E /* AppDelegate.swift */,
-				28222C271E5AAE90008F3B1E /* ViewController.swift */,
-				28222C291E5AAE90008F3B1E /* Main.storyboard */,
-				28222C2F1E5AAE90008F3B1E /* Assets.xcassets */,
-				28222C311E5AAE90008F3B1E /* LaunchScreen.storyboard */,
-				28222C341E5AAE90008F3B1E /* Info.plist */,
-				28222C2C1E5AAE90008F3B1E /* TodoNext.xcdatamodeld */,
+				280D29DA1E618F3700F11BEB /* ReachabilityStatus.swift */,
+				28038ABB1E5C092900D87424 /* App */,
+				2808E57D1E60034E002503B1 /* Utility.swift */,
+				28038ABC1E5C093F00D87424 /* View */,
+				28FCAB611E5D92B4005B9D8D /* ViewModel */,
+				28FCAB631E5D92E4005B9D8D /* Service */,
+				28FCAB621E5D92D4005B9D8D /* Model */,
+				28005C441E5EEE55001B6972 /* Protocol */,
+				28038ABD1E5C097500D87424 /* Resources */,
 			);
 			path = TodoNext;
+			sourceTree = "<group>";
+		};
+		28FCAB611E5D92B4005B9D8D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28FCAB5F1E5D9230005B9D8D /* HomePageViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		28FCAB621E5D92D4005B9D8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28FCAB531E5D569B005B9D8D /* GetDataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		28FCAB631E5D92E4005B9D8D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				28FCAB551E5D5C64005B9D8D /* GetDataService.swift */,
+				2808E5851E60524D002503B1 /* PostDataService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		3451A87998E7BE3B14A7301B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49BC24DCEC68096A58556170 /* Pods-TodoNext.debug.xcconfig */,
+				B52AF7D04E5A9A7E119DEB24 /* Pods-TodoNext.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C4ECC4EB5396E664C4B4614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FF4F6158FE446120C3A9BB8 /* Pods_TodoNext.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28222C371E5AAE90008F3B1E /* Build configuration list for PBXNativeTarget "TodoNext" */;
 			buildPhases = (
+				58E9DD3EC862D5F8652A81BD /* [CP] Check Pods Manifest.lock */,
 				28222C1E1E5AAE8F008F3B1E /* Sources */,
 				28222C1F1E5AAE8F008F3B1E /* Frameworks */,
 				28222C201E5AAE8F008F3B1E /* Resources */,
+				0309B8DEB104605A3B052CBA /* [CP] Embed Pods Frameworks */,
+				4E5CBE8ECF271EB1E4F28A12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +229,7 @@
 				TargetAttributes = {
 					28222C211E5AAE8F008F3B1E = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,12 +258,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				28222C331E5AAE90008F3B1E /* LaunchScreen.storyboard in Resources */,
+				28222C3B1E5AB4CC008F3B1E /* GoogleService-Info.plist in Resources */,
 				28222C301E5AAE90008F3B1E /* Assets.xcassets in Resources */,
 				28222C2B1E5AAE90008F3B1E /* Main.storyboard in Resources */,
+				289F904C1E5C4D6600E6F8DF /* ProfilePic.xib in Resources */,
+				28005C431E5EC81E001B6972 /* TableViewCellCard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0309B8DEB104605A3B052CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoNext/Pods-TodoNext-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5CBE8ECF271EB1E4F28A12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TodoNext/Pods-TodoNext-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E9DD3EC862D5F8652A81BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28222C1E1E5AAE8F008F3B1E /* Sources */ = {
@@ -140,7 +322,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				28222C2E1E5AAE90008F3B1E /* TodoNext.xcdatamodeld in Sources */,
-				28222C281E5AAE90008F3B1E /* ViewController.swift in Sources */,
+				289F904B1E5C4D6600E6F8DF /* ProfilePic.swift in Sources */,
+				28222C281E5AAE90008F3B1E /* SplashScreenViewController.swift in Sources */,
+				2808E5861E60524D002503B1 /* PostDataService.swift in Sources */,
+				28005C421E5EC81E001B6972 /* TableViewCellCard.swift in Sources */,
+				28FCAB541E5D569B005B9D8D /* GetDataModel.swift in Sources */,
+				28FCAB601E5D9230005B9D8D /* HomePageViewModel.swift in Sources */,
+				2808E57E1E60034E002503B1 /* Utility.swift in Sources */,
+				28FCAB5E1E5D7078005B9D8D /* TaskDetailProtocol.swift in Sources */,
+				2808E5841E6045C0002503B1 /* Descriptionviewcontroller.swift in Sources */,
+				28038ABF1E5C0B5400D87424 /* HomePageViewController.swift in Sources */,
+				280D29DB1E618F3700F11BEB /* ReachabilityStatus.swift in Sources */,
+				28FCAB581E5D5E9A005B9D8D /* MainViewController.swift in Sources */,
+				28FCAB561E5D5C64005B9D8D /* GetDataService.swift in Sources */,
 				28222C261E5AAE90008F3B1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,24 +456,31 @@
 		};
 		28222C381E5AAE90008F3B1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BC24DCEC68096A58556170 /* Pods-TodoNext.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TodoNext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.next.TodoNext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoNext-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		28222C391E5AAE90008F3B1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52AF7D04E5A9A7E119DEB24 /* Pods-TodoNext.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TodoNext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.next.TodoNext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TodoNext-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -303,6 +504,7 @@
 				28222C391E5AAE90008F3B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
